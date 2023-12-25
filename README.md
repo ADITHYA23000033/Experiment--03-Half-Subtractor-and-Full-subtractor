@@ -27,28 +27,61 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Procedure
 
-
-
-Write the detailed procedure here 
+STEP 1: Use module project name(input,output) to start the Verilog programmming.
+STEP 2: Assign inputs and outputs using the word input and output respectively.
+STEP 3: Use defined keywords like wire,assign and required logic gates to represent the boolean expression.
+STEP 4: Use each output to represnt onre for differnce and the other for borrow.
+STEP 5: End the verilog program using keyword endmodule. 
 
 
 ## Program:
 /*
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+
+Developed by: ADITHYA V
+
+RegisterNumber: 23000033
 */
+
+half subracter
+
+![Exp4 hs code](https://github.com/ADITHYA23000033/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514544/99c72620-d6aa-4f51-abcd-b0bd2d6e0aa5)
+
+full subracter
+
+![Exp4 fs code](https://github.com/ADITHYA23000033/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514544/dc7a29bc-ee12-4d67-88d4-0fcc2e114993)
 
 ## Output:
 
 ## Truthtable
 
+half subracter
 
+![Exp4 truthtable hs](https://github.com/ADITHYA23000033/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514544/8c2b1132-eabf-4e76-b78f-0c0c49e571fb)
+
+full subracter
+
+![Exp4 truthtable fs](https://github.com/ADITHYA23000033/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514544/a8916692-adac-4715-b819-ff65a2aebe41)
 
 ##  RTL realization
 
+half subracter
+
+![Exp4 hs RTL diagram](https://github.com/ADITHYA23000033/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514544/21ff9437-b1bc-4652-b873-f0e44d30b68f)
+
+full subracter
+
+![Exp4 fs RTL diagram](https://github.com/ADITHYA23000033/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514544/52a60061-ff51-4cc5-93bd-cc2e4ac1e7c3)
 
 ## Timing diagram 
+
+half subracter
+
+![hs wave](https://github.com/ADITHYA23000033/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514544/8122a67e-2e61-45fa-bb5c-7e8c1baf91e0)
+
+full subracter
+
+![fs wave](https://github.com/ADITHYA23000033/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/148514544/8f7cad2b-20d6-4173-aed6-17a0f0115fdc)
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
